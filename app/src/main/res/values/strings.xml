@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="profile">My Profile</string>
+    <string name="about">About ALC</string>
+    <string name="welcome_to_alc_4_0">Welcome To ALC 4.0</string>
+    <string name="text_name">Mumbere Arnold</string>
+    <string name="track_text">Track:</string>
+    <string name="country_text">Country:</string>
+    <string name="e_mail_text">E-mail:</string>
+    <string name="phone_number_text">Phone Number:</string>
+    <string name="slack_username">Slack Username:</string>
+    <string name="android_track">Android</string>
+    <string name="txtCountry">Kenya</string>
+    <string name="txt_email">arnold@gmail.com</string>
+    <string name="txt_number">+254 723000000</string>
+    <string name="txt_slackName">Mumbere Arnold</string>
+</resources>
