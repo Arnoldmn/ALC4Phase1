@@ -13,7 +13,7 @@
 
         <ImageView
                 android:id="@+id/profileImage"
-                android:src="@mipmap/ic_launcher"
+                android:src="@drawable/download"
                 android:layout_width="match_parent"
                 android:layout_margin="8dp"
                 android:layout_height="250dp"
