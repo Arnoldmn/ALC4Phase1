@@ -4,6 +4,9 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.net.http.SslError
+import android.webkit.SslErrorHandler
+
 
 class AboutActivity : AppCompatActivity() {
 
@@ -19,6 +22,11 @@ class AboutActivity : AppCompatActivity() {
             override fun shouldOverrideUrlLoading(view: WebView?, url: String?): Boolean {
                 view?.loadUrl(url)
                 return true
+            }
+
+
+            override fun onReceivedSslError(view: WebView, handler: SslErrorHandler, error: SslError) {
+                handler.proceed()
             }
         }
         myWebView.loadUrl("https://andela.com/alc/")
